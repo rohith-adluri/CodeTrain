@@ -72,8 +72,9 @@ public class DisjointSet {
         if(ds.findUPar(3) == ds.findUPar(7)) {
             System.out.println("Same");
         }
-        else
+        else {
             System.out.println("Not Same");
+        }
     }
 }
 
